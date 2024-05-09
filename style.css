@@ -2,11 +2,28 @@
 body {
     background-color: rgba(186, 248, 228, 0.575);
 }
+
+.column {
+    width: 100%;
+}
+
 /* Styled for screens 600px wide and larger */
 /* @media screen and (main-width: 600px) {  */
-@media screen and (main-width: 600px) { 
+@media screen and (main-width:600px) {
 
-    body{
+    body {
         background-color: rgb(172, 235, 214);
-    }    
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
