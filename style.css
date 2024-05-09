@@ -1,0 +1,13 @@
+/* Default styles for small screens and anything not caught by media */
+body{
+    background-color: rgba(175, 174, 252, 0.832);
+
+}
+/* Styled for screens 600px wide and larger */
+
+@media screen and (min-wid: 600px) {
+
+}
+body {
+    background-color: rgb(85, 162, 162);
+}
