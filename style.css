@@ -1,15 +1,18 @@
 /* Default styles for small screens and anything not caught by media */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jacquard+24+Charted&display=swap');
+
 body {
     background-color: rgba(186, 248, 228, 0.575);
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: "Anton", sans-serif;
 }
 
 .column {
     width: 100%;
 }
-
 /* Styled for screens 600px wide and larger */
 /* @media screen and (main-width: 600px) {  */
-@media screen and (main-width:600px) {
+@media screen and (main-width > 600px) {
 
     body {
         background-color: rgb(172, 235, 214);
